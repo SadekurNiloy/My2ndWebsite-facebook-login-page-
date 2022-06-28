@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+.header-area {
+    background-color: #3b5998;
+    padding: 20px 0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.logo-area {
+    width: 30%;
+    float: left;
+}
+.login-area {
+    width: 70%;
+    overflow: hidden;
+}
+.login-area label,
+.login-area input {
+    display: block;
+}
+.login-area label {
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+}
+.login-area input {
+    margin: 3px 0;
+}
+.username-area input[type=checkbox] {
+    float: left;
+    margin-left: 0;
+    margin-right: 3px;
+}
+.username-area label:last-child {
+    display: block;
+    margin-top: 5px;
+    color: #9daccb;
+    margin-bottom: 4px;
+}
+.username-area {
+    float: left;
+    margin-right: 10px;
+}
+.password-area {
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.password-area a {
+    color: #9daccb;
+    font-size: 12px;
+    text-decoration: none;
+}
+.password-area a:hover {
+    text-decoration: underline;
+}
+.submit-area {
+    overflow: hidden;
+}
+.submit-area input {
+    background-color: #5b72a9;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 2px 5px;
+    border: 1px solid gray;
+    margin-top: 18px;
+}
+.login-area form {
+    float: right;
+}
+
+/***************Main Area*************/
+.main-area {
+    background-image: linear-gradient(#939ab8 #ffffff);
+
+}
+.main-area p {
+    font-size: 12px;
+    color: #888c94;
+}
+.left-area {
+    width: 50%;
+    float: left;
+    margin-right: 10%;
+}
+.right-area {
+    width: 40%;
+    overflow: hidden;
+}
+.mobile-area {
+    margin-top: 50px;
+    background-image: url("images/background.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    min-height: 280px;
+}
+.mobile-image {
+    float: left;
+}
+.mobile-image img {
+  margin-top: 20px;
+  margin-right: 10px;
+  display: block; 
+  margin-left: 50px;
+}
+.mobile-text {
+    overflow: hidden;
+}
+.mobile-text h3 {
+    text-transform: capitalize;
+    font-weight: normal;
+    margin: 0;
+}
+.mobile-text p {
+    margin: 0;
+    text-transform: capitalize;
+}
+.mobile-text a {
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 3px 4px;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-weight: bold;
+
+}
+.right {
+    margin-top: 20px;
+}
+.right-area h1 {
+    font-size: 35px;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.right-area h2 {
+    font-weight: normal;
+    margin: 0;
+    font-size: 18px;
+}
+.right-area h2::first-letter {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.for {
+    margin-top: 20px;
+}
+.for input[type=text],
+.for input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 8px 6px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-size: 18px;
+    font-weight: normal;
+}
+.for input[type=text]:nth-child(1) {
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+}
+.for input[type=text]:nth-child(2) {
+    width: 48%;
+    overflow: hidden;
+}
+.birthday {
+    margin-bottom: 5px;
+}
+.birthday h3 {
+    text-transform: capitalize;
+    font-weight: normal;
+    margin: 0;
+}
+.birthday-select {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.birthday-select select {
+    padding: 6px 6px;
+    float: left;
+    margin-right: 10px;
+}
+.birthday-link::first-letter {
+    text-transform: capitalize;
+}
+.birthday-link a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #5b72a9;
+    
+}
+.birthday-link a:hover {
+    text-decoration: underline;
+}
+.sex label {
+    font-size: 18px;
+    font-weight: normal;
+}
+.paragraph {
+    margin-bottom: 10px;
+}
+.paragraph p::first-letter {
+    text-transform: capitalize;
+}
+.paragraph a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #5b72a9;
+}
+.sign {
+    margin-bottom: 20px;
+}
+.sign input {
+    background-color: #5a9147;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 10px 60px;
+    color: #ffffff;
+    font-size: 18px;
+}
+hr {
+    border-top: 0;
+    border: 1px solid gray;
+    border-left: 0;
+    border-bottom: 0;
+}
+.para a {
+    color: #5b72a9;
+    font-size: 12px;
+    text-decoration: none;
+}
+.para a:hover {
+    text-decoration: underline;
+}
+
+/*********Media Query**********/
+@media all and (max-width: 768px) {
+    .logo-area {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .login-area {
+        width: 100%;
+    }
+    .login-area form {
+        width: 365px;
+        float: none;
+        margin: auto;
+    }
+    .left-area {
+        width: 100%;
+        float: none;
+    }
+    .right-area {
+        width: 100%;
+    }
+}
+@media all and (max-width: 415px) {
+    .login-area {
+        width: auto;
+    }
+    .username-area {
+        float: none;
+    }
+    .password-area {
+        float: none;
+    }
+    .mobile-image {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .mobile-text {
+        width: 100%;
+        margin: auto;
+    }
+    .username-area input[type=text] {
+        width: 100%;
+    }
+    .password-area input[type=password] {
+        width: 100%;
+    }
+}
